@@ -11,6 +11,7 @@
     <!-- Set this to true if you enable server-side prerendering -->
     <BuildServerSideRenderer>false</BuildServerSideRenderer>
     <RootNamespace>Todo_App</RootNamespace>
+    <UserSecretsId>856b7896-03b2-4235-a2f4-1cea40f30fde</UserSecretsId>
   </PropertyGroup>
 
   <ItemGroup>
