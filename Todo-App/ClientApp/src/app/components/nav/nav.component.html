@@ -1,0 +1,44 @@
+<div class="row">
+  <div class="app-title">
+    <h1>#todo</h1>
+  </div>
+  <div id="navigationDiv">
+    <div id="navigationTab" class="row">
+      <a
+        class="nav-item nav-link"
+        data-toggle="tab"
+        routerLink="/"
+        [ngClass]="
+          router.url === '/' ? 'nav-home-tab-selected active' : 'nav-home-tab'
+        "
+      >
+        All</a
+      >
+      <a
+        class="nav-item nav-link"
+        data-toggle="tab"
+        routerLink="/app-active"
+        [ngClass]="
+          router.url === '/app-active'
+            ? 'nav-active-tab-selected active'
+            : 'nav-active-tab'
+        "
+      >
+        Active</a
+      >
+      <a
+        class="nav-item nav-link"
+        data-toggle="tab"
+        routerLink="/app-completed"
+        [ngClass]="
+          router.url === '/app-completed'
+            ? 'nav-completed-tab-selected active'
+            : 'nav-completed-tab'
+        "
+      >
+        Completed</a
+      >
+    </div>
+  </div>
+</div>
+<br />

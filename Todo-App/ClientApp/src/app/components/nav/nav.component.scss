@@ -1,0 +1,100 @@
+.app-title {
+  text-align: center;
+  font-family: Raleway;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 36px;
+  line-height: 42px;
+  letter-spacing: -0.045em;
+  padding-bottom: 50px;
+}
+
+.nav-home-tab-selected {
+  padding: 20px 89px 15px 89px;
+  color: #232222;
+  text-align: center;
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 22px;
+  line-height: 17px;
+  width: 89px;
+  border-bottom: 3px solid #6da6f2;
+  border-radius: 4px 4px 0px 0px;
+}
+
+.nav-active-tab-selected {
+  padding: 20px 89px 15px 89px;
+  color: #232222;
+  text-align: center;
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 22px;
+  line-height: 17px;
+  width: 89px;
+  border-bottom: 3px solid #6da6f2;
+  border-radius: 4px 4px 0px 0px;
+}
+
+.nav-completed-tab-selected {
+  padding: 20px 89px 15px 89px;
+  color: #232222;
+  text-align: center;
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 22px;
+  line-height: 17px;
+  width: 89px;
+  border-bottom: 3px solid #6da6f2;
+  border-radius: 4px 4px 0px 0px;
+}
+
+.nav-home-tab {
+  padding: 20px 89px 15px 89px;
+  color: dimgray;
+  text-align: center;
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 22px;
+  line-height: 17px;
+  width: 89px;
+}
+
+.nav-active-tab {
+  padding: 20px 89px 15px 89px;
+  color: dimgray;
+  text-align: center;
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 22px;
+  line-height: 17px;
+  width: 89px;
+}
+
+.nav-completed-tab {
+  padding: 20px 89px 15px 89px;
+  color: dimgray;
+  text-align: center;
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 22px;
+  line-height: 17px;
+  width: 89px;
+}
+
+#navigationTab {
+  margin-left: 400px;
+  margin-right: 330px;
+  text-align: center;
+  padding-bottom: 16px;
+  border-bottom: 1px solid black;
+}
+
+a {
+  text-decoration: none;
+}

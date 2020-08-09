@@ -1,0 +1,19 @@
+<div>
+  <div class="tasks" *ngFor="let task of completedTasks; let i = index">
+    <li id="completedTasks">
+      <input
+        type="checkbox"
+        class="form-check-input"
+        id="activeCheckBox"
+        [checked]="task.completed === true"
+      />
+      <span id="taskDetails"> {{ task.name }}</span>
+      <i
+        class="fa fa-trash fa-2x"
+        (click)="deleteTask(i)"
+        aria-hidden="true"
+      ></i>
+    </li>
+  </div>
+  <button type="button" (click)="deleteAllTasks()" class="deleteAll">Delete All</button>
+</div>
